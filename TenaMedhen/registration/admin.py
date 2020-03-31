@@ -26,11 +26,12 @@ class PatientAdmin(admin.ModelAdmin):
 
 
 class CreditAdmin(admin.ModelAdmin):
+    exclude = ['created_by']
     actions = ['export_csv_for_print']
     list_per_page = 50
     list_filter = ['rx_type', 'created_date']
     list_display = ['get_full_name', 'card', 'lab', 'x_ray', 'others', 'bed', 'ultrasound', 'medication', 'rx_type',
-                    'get_total', 'get_et_date']
+                    'get_total', 'get_et_date','created_by']
 
     def get_full_name(self, obj):
         return obj.patient.full_name()
@@ -88,12 +89,12 @@ class CreditAdmin(admin.ModelAdmin):
                         if outerindex == 0:
                             continue
                         if len_counter != len(names):
-                            temp.append(("Yezore Demer","","","","","","","",float(card_sum), float(lab_sum), float(x_ray_sum), float(others_sum),
-                    float(bed_sum), float(ultrasound_sum), float(medication_sum),float(total_birr)))
+                            temp.append(("Yezore Demer","","","","","","","",round(float(card_sum),2), round(float(lab_sum),2), round(float(x_ray_sum),2), round(float(others_sum),2),
+                    round(float(bed_sum),2), round(float(ultrasound_sum),2), round(float(medication_sum),2),round(float(total_birr),2)))
                 if len_counter == len(names) and innerindex == len(outerelement) - 1:
                     # number two (2) should be dynamic. it represents length of column
                     temp.append(
-                    ("Total","","","","","","","",card_sum, lab_sum, x_ray_sum, others_sum, bed_sum, ultrasound_sum, medication_sum,total_birr))
+                    ("Total","","","","","","","",round(card_sum,2), round(lab_sum,2), round(x_ray_sum,2), round(others_sum,2), round(bed_sum,2), round(ultrasound_sum,2), round(medication_sum,2),round(total_birr,2)))
                     # temp.append(float(card_sum) + float(lab_sum) + float(x_ray_sum) + float(others_sum) + float(
                     # bed_sum) + float(ultrasound_sum) + float(medication_sum))
             # print(f'Type of temp {type(temp)}')
@@ -121,7 +122,7 @@ class CreditAdmin(admin.ModelAdmin):
                              p.x_ray, p.others,
                              p.bed, p.ultrasound,
                              p.medication,
-                             p.get_total()))
+                             p.get_total(),p.created_by))
 
             returned_value = self.add_up(data)
             # print(returned_value)
@@ -143,7 +144,13 @@ class CreditAdmin(admin.ModelAdmin):
         except Exception as exc:
             self.message_user(request, f'Failed to Export {exc} ')
 
+    def save_model(self, request, obj, form, change):
+        if not change:
+            obj.created_by = request.user
+        obj.save()
+
     export_csv_for_print.short_description = "Export for print"
+    get_et_date.short_description = "Date"
 
 
 # Register your models here.

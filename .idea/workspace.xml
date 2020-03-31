@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd106920-28bd-4845-b141-f43fe4896540" name="Default Changelist" comment="" />
+    <list default="true" id="dd106920-28bd-4845-b141-f43fe4896540" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenaMedhen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/TenaMedhen/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenaMedhen/registration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TenaMedhen/registration/admin.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\HP\PycharmProjects\HospitalManagementSystem\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1WP9A7DrVsIt2EM0QVtNxeQq72H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -81,30 +101,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="166" key="GridCell.Tab.0.bottom" timestamp="1584673010358">
+    <state width="1340" height="166" key="GridCell.Tab.0.bottom" timestamp="1585652662596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584673010358" />
-    <state width="1340" height="166" key="GridCell.Tab.0.center" timestamp="1584673010358">
+    <state width="1340" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585652662596" />
+    <state width="1340" height="166" key="GridCell.Tab.0.center" timestamp="1585652662596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584673010358" />
-    <state width="1340" height="166" key="GridCell.Tab.0.left" timestamp="1584673010357">
+    <state width="1340" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585652662596" />
+    <state width="1340" height="166" key="GridCell.Tab.0.left" timestamp="1585652662595">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584673010357" />
-    <state width="1340" height="166" key="GridCell.Tab.0.right" timestamp="1584673010358">
+    <state width="1340" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585652662595" />
+    <state width="1340" height="166" key="GridCell.Tab.0.right" timestamp="1585652662596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1340" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584673010358" />
+    <state width="1340" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585652662596" />
     <state x="108" y="0" key="SettingsEditor" timestamp="1584663642607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="108" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584663642607" />
-    <state x="286" y="152" key="com.intellij.ide.util.TipDialog" timestamp="1585103790830">
+    <state x="286" y="152" key="com.intellij.ide.util.TipDialog" timestamp="1585649845041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="286" y="152" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585103790830" />
+    <state x="286" y="152" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585649845041" />
     <state x="130" y="66" width="1118" height="700" maximized="true" key="dock-window-1" timestamp="1584152593173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
