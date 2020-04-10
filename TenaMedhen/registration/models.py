@@ -35,7 +35,7 @@ class Credit(models.Model):
     bed = models.FloatField(default=0.0)
     ultrasound = models.FloatField(default=0.0)
     medication = models.FloatField(default=0.0)
-    created_by = models.CharField(max_length=255, default='Me')
+    created_by = models.CharField(max_length=255, default='Unknown')
     created_date = models.DateField(max_length=255, default=timezone.now)
     patient = models.ForeignKey(Patient, on_delete=models.CASCADE, null=False)
 
