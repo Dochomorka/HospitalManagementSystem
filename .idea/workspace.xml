@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd106920-28bd-4845-b141-f43fe4896540" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TenaMedhen/registration/MonthFilter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenaMedhen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/TenaMedhen/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenaMedhen/registration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TenaMedhen/registration/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TenaMedhen/registration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TenaMedhen/registration/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -107,9 +109,25 @@
       <option name="presentableId" value="Default" />
       <updated>1579040217394</updated>
     </task>
+    <task id="LOCAL-00001" summary="created by and PageBreak() functionality added">
+      <created>1586509119324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586509119324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created by and PageBreak() functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="created by and PageBreak() functionality added" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1586509117174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586509117174" />
     <state width="1340" height="166" key="GridCell.Tab.0.bottom" timestamp="1585656813065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -130,6 +148,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="108" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586161467670" />
+    <state x="175" y="18" key="Vcs.Push.Dialog.v2" timestamp="1586509150444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="18" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586509150444" />
     <state x="286" y="152" key="com.intellij.ide.util.TipDialog" timestamp="1586502598368">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -138,6 +160,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="130" y="66" width="1118" height="700" maximized="true" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1584152593173" />
+    <state x="363" y="12" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586509322124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="12" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1586509322124" />
     <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1586334298249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
